@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+li, a, input{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navigation {
+    
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0 30px; 
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.navigation li a:hover {
+    color: skyblue;
+    font-size: 18px;
+}
+
+.search {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    color: blue;
+    
+}
+
+main {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+p {
+    color: white;
+    display: block;
+    width: 300px
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="alone.html"><img class="logo" src="/alone/facebook-black.png" alt="logo" style="width: 70px;"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#"><input class="search" type="search" placeholder="Search"></a>
+        
+    </header>
+    <main>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis reprehenderit soluta consectetur, recusandae cumque doloribus vel molestiae blanditiis quam?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis reprehenderit soluta consectetur, recusandae cumque doloribus vel molestiae blanditiis quam?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis reprehenderit soluta consectetur, recusandae cumque doloribus vel molestiae blanditiis quam?</p>
+
+    </main>
+</body>
+</html>
